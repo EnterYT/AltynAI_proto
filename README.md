@@ -1,4 +1,4 @@
-# Awesome Project Name
+# AltynAI - Your Virtual Kazakh Assistant
 
 **A totally rad project description that'll make your grandma say 'wow'!** ✨
 
@@ -17,16 +17,16 @@ These instructions will get you a copy of the project up and running on your loc
 
 What you'll need to get started:
 
-*   Node.js and npm (or yarn)
-*   A text editor (VS Code is 🔥)
+*   Node.js and npm
+*   A text editor (WebStorm & VS Code)
 *   A cup of coffee ☕
 
 ### Installation
 
-1.  Clone the repo: `git clone <repo_url>`
-2.  Navigate to the project directory: `cd awesome-project`
-3.  Install dependencies: `npm install` (or `yarn install`)
-4.  Run the app: `npm start` (or `yarn start`)
+1.  Clone the repo: `git clone https://github.com/EnterYT/AltynAI_proto.git`
+2.  Navigate to the project directory: `cd <your-directory-name>`
+3.  Install dependencies: `npm install`
+4.  Run the app: `npm start` 
 
 ## Usage
 
