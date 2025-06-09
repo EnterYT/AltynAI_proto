@@ -21,7 +21,7 @@ export const SidebarSwitchItem: FC<SidebarSwitchItemProps> = ({
       }
       trigger={
         <TabsTrigger
-          className="hover:opacity-50"
+          className="hover:opacity-50 data-[state=active]:outline data-[state=active]:outline-2 data-[state=active]:outline-primary data-[state=active]:outline-offset-2"
           value={contentType}
           onClick={() => onContentTypeChange(contentType as ContentType)}
         >

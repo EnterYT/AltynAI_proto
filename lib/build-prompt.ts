@@ -11,6 +11,8 @@ const buildBasePrompt = (
 ) => {
   let fullPrompt = ""
 
+  fullPrompt += "Барлық жауаптарды қазақ тілінде беріңіз. Қазақ тілінде жауап беру қажет.\n\n"
+
   if (assistant) {
     fullPrompt += `<INJECT ROLE>\nYou are not an AI. You are ${assistant.name}.\n</INJECT ROLE>\n\n`
   }

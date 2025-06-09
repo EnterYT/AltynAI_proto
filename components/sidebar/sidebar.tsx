@@ -78,25 +78,12 @@ export const Sidebar: FC<SidebarProps> = ({ contentType, showSidebar }) => {
             case "prompts":
               return renderSidebarContent("prompts", prompts, promptFolders)
 
-            case "files":
-              return renderSidebarContent("files", files, filesFolders)
-
             case "collections":
               return renderSidebarContent(
                 "collections",
                 collections,
                 collectionFolders
               )
-
-            case "assistants":
-              return renderSidebarContent(
-                "assistants",
-                assistants,
-                assistantFolders
-              )
-
-            case "tools":
-              return renderSidebarContent("tools", tools, toolFolders)
 
             case "models":
               return renderSidebarContent("models", models, modelFolders)

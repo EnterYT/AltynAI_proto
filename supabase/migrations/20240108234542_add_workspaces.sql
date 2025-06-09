@@ -89,3 +89,21 @@ EXECUTE PROCEDURE prevent_home_field_update();
 CREATE UNIQUE INDEX idx_unique_home_workspace_per_user 
 ON workspaces(user_id) 
 WHERE is_home;
+
+-- INSERT --
+
+INSERT INTO public.workspaces(user_id, is_home, name, default_context_length, default_model, default_prompt, default_temperature, description, embeddings_provider, include_profile_context, include_workspace_instructions, instructions)
+VALUES(
+    NEW.id,
+    TRUE,
+    'Home',
+    4096,
+    'gemini-1.5-flash',
+    'You are a friendly, helpful AI assistant.',
+    0.5,
+    'My home workspace.',
+    'openai',
+    TRUE,
+    TRUE,
+    ''
+);
